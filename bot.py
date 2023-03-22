@@ -8,11 +8,11 @@ from aiogram.utils.executor import start_webhook
 from commands import HELP_COMMANDS, DESCRIPTION
 
 
-WEBHOOK_HOST = 'https://2962-2a00-1fa0-4dc-e96a-45b4-368c-f329-d0e2.eu.ngrok.io'
-WEBHOOK_PATH = '/path/to/api'
+WEBHOOK_HOST = 'https://firstcontainer-rrjws.run-eu-central1.goorm.site'
+WEBHOOK_PATH = ''
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
-WEBAPP_HOST = 'localhost'
+WEBAPP_HOST = '0.0.0.0'
 WEBAPP_PORT = 8000
 
 logging.basicConfig(level=logging.INFO)
@@ -68,4 +68,3 @@ if __name__ == '__main__':
         host=WEBAPP_HOST,
         port=WEBAPP_PORT,
 )
-
